@@ -76,19 +76,43 @@
         border: 3px solid #212EA0;
     }
 }
-@media (max-width: 800px){
-    .user-info{
+
+
+@media (max-width: 480px) {
+    .slider ul {
+        width: 400%; /* Total width of all testimonials */
+    }
+
+    .slider ul li {
+        width: 100%; /* Show one testimonial at a time */
+    }
+
+    .testimonials {
+        padding: 0 20px;
+    }
+
+    .next-btn, .back-btn {
+        padding: 8px;
+        width: 30px;
+    }
+
+    .user-info {
         display: block;
         margin-bottom: 10px;
-        font-size: 12px;
+        font-size: 14px;
     }
-    .user-info h3{
-        font-size: 16px;
+
+    .user-info h3 {
+        font-size: 18px;
     }
-    .slider p{
-        font-size: 12px;
+
+    .slider p {
+        font-size: 14px;
     }
 }
+
+
+
 
 
 

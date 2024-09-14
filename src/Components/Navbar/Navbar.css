@@ -67,8 +67,8 @@ nav ul li{
         right: -200px;
     }
 }
-
-
-
-
-
+@media (max-width: 480px){
+    .menu-icon{
+        width: 25px;
+    }
+}

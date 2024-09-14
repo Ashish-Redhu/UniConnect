@@ -26,8 +26,8 @@ export default function App(){
         <Testimonials/>
         <Title subtitle="Contact Us" title="Get in Touch"/>
         <Contact/>
-        <Footer/>
       </div>
+      <Footer/>
       <VideoPlayer playState={playState} setPlayState={setPlayState}/>       
     </div>
   )

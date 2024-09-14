@@ -43,7 +43,11 @@
         margin: 15px auto 30px;
     }
 }
-
+@media (max-width: 400px){
+    .hero-text{
+        margin-top: 50px;
+    }
+}
 
 
 

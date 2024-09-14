@@ -6,6 +6,8 @@ import Title from './Components/Title/Title.jsx'
 import About from './Components/About/About.jsx'
 import Campus from './Components/Campus/Campus.jsx'
 import Testimonials from './Components/Testimonials/Testimonials.jsx'
+import Contact from './Components/Contact/Contact.jsx'
+import Footer from './Components/Footer/Footer.jsx'
 
 export default function App() {
   return (
@@ -20,6 +22,9 @@ export default function App() {
         <Campus/>
         <Title subtitle="TESTIMONIALS" title="What Student Says"/>
         <Testimonials/>
+        <Title subtitle="Contact Us" title="Get in Touch"/>
+        <Contact/>
+        <Footer/>
       </div>
       
     </div>
